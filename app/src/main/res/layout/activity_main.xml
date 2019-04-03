@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/name_field1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textCapWords" />
+        <EditText
+            android:id="@+id/name_field2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textCapWords"
+            android:layout_marginTop="16dp"/>
+        <EditText
+            android:id="@+id/name_field3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textCapWords"
+            android:layout_marginTop="16dp"/>
+        <EditText
+            android:id="@+id/name_field4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone"
+            android:inputType="textCapWords"
+            android:layout_marginTop="16dp"/>
+        <EditText
+            android:id="@+id/name_field5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:inputType="textCapWords"
+            android:layout_marginTop="16dp"/>
+        <EditText
+            android:id="@+id/name_field6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Village/Town"
+            android:inputType="textCapWords"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background = "@drawable/buttonbackground"
+            android:text="Labs"
+            android:padding="10dp"
+            android:layout_marginTop="16dp"
+            android:textAppearance="@color/colorPrimaryDark"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level"
+            android:layout_marginTop="22dp"/>
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            android:layout_marginTop="16dp"/>
+
+        <Cardview
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:padding="18dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thyrocare"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textAppearance="@color/colorPrimaryDark"
+                android:layout_marginLeft="5dp"
+                />
+
+            <EditText
+                android:id="@+id/name_field7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Thyrocare username"
+                android:inputType="textCapWords"
+                android:layout_marginTop="16dp"/>
+
+            <EditText
+                android:id="@+id/name_field8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Thyrocare Password"
+                android:inputType="textCapWords"
+                android:layout_marginTop="16dp"/>
+
+            <EditText
+                android:id="@+id/name_field9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Default Lab"
+                android:inputType="textCapWords"
+                android:layout_marginTop="16dp"/>
+
+
+
+
+        </Cardview>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="18dp"
+            android:padding="20dp"
+            android:text="SUBMIT"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>
