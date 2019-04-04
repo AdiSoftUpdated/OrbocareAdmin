@@ -78,54 +78,62 @@
             android:background="@android:drawable/btn_dropdown"
             android:spinnerMode="dropdown"
             android:layout_marginTop="16dp"/>
-
-        <Cardview
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
             android:layout_gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="16dp"
-            android:padding="18dp"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp">
 
-            >
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Thyrocare"
-                android:textSize="18sp"
-                android:layout_marginTop="16dp"
-                android:textAppearance="@color/colorPrimaryDark"
-                android:layout_marginLeft="5dp"
-                />
-
-            <EditText
-                android:id="@+id/name_field7"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Thyrocare username"
-                android:inputType="textCapWords"
-                android:layout_marginTop="16dp"/>
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
 
-            <EditText
-                android:id="@+id/name_field8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Thyrocare Password"
-                android:inputType="textCapWords"
-                android:layout_marginTop="16dp"/>
+                    android:text="Thyrocare"
+                    android:padding="10dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="18dp"
+                    android:textAppearance="@color/colorPrimaryDark"
+                    android:textSize="15sp"
+                    />
 
-            <EditText
-                android:id="@+id/name_field9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Default Lab"
-                android:inputType="textCapWords"
-                android:layout_marginTop="16dp"/>
+                <EditText
+                    android:id="@+id/name_field7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Thyrocare Username"
+                    android:inputType="textCapWords"
+                    android:layout_marginTop="16dp"
+                    />
+                <EditText
+                    android:id="@+id/name_field8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Thyrocare Password"
+                    android:inputType="textCapWords"
+                    android:layout_marginTop="16dp"
+                    />
+
+                <EditText
+                    android:id="@+id/name_field9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Default Lab"
+                    android:inputType="textCapWords"
+                    android:layout_marginTop="16dp"
+                    />
+            </LinearLayout>
 
 
 
 
-        </Cardview>
+        </android.support.v7.widget.CardView>
 
         <Button
             android:layout_width="wrap_content"
