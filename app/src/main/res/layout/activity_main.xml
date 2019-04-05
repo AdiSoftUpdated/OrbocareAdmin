@@ -18,58 +18,72 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"
-            android:inputType="textCapWords" />
+            android:inputType="textCapWords"
+            android:textSize="15sp"
+            />
         <EditText
             android:id="@+id/name_field2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
             android:inputType="textCapWords"
-            android:layout_marginTop="16dp"/>
+            android:textSize="15sp"
+            android:paddingTop="40dp"
+            />
         <EditText
             android:id="@+id/name_field3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Name"
             android:inputType="textCapWords"
-            android:layout_marginTop="16dp"/>
+            android:textSize="15sp"
+            android:paddingTop="40dp"
+            />
         <EditText
             android:id="@+id/name_field4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Phone"
             android:inputType="textCapWords"
-            android:layout_marginTop="16dp"/>
+            android:textSize="15sp"
+            android:paddingTop="40dp"
+            />
         <EditText
             android:id="@+id/name_field5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Address"
             android:inputType="textCapWords"
-            android:layout_marginTop="16dp"/>
+            android:textSize="15sp"
+            android:paddingTop="40dp"
+            />
         <EditText
             android:id="@+id/name_field6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Village/Town"
             android:inputType="textCapWords"
-            android:layout_marginTop="16dp"/>
+            android:textSize="15sp"
+            android:paddingTop="40dp"
+            />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background = "@drawable/buttonbackground"
             android:text="Labs"
+            android:layout_marginTop="40dp"
             android:padding="10dp"
-            android:layout_marginTop="16dp"
-            android:textAppearance="@color/colorPrimaryDark"
-            android:textSize="15sp"/>
+            android:textColor="#757575"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Level"
-            android:layout_marginTop="22dp"/>
+            android:paddingTop="30dp"/>
 
         <fr.ganfra.materialspinner.MaterialSpinner
             android:id="@+id/spinner1"
@@ -77,7 +91,9 @@
             android:layout_height="wrap_content"
             android:background="@android:drawable/btn_dropdown"
             android:spinnerMode="dropdown"
-            android:layout_marginTop="16dp"/>
+            android:paddingTop="20dp"
+
+            />
         <android.support.v7.widget.CardView
             xmlns:card_view="http://schemas.android.com/apk/res-auto"
             android:id="@+id/card_view"
@@ -96,11 +112,12 @@
                     android:layout_height="wrap_content"
 
                     android:text="Thyrocare"
-                    android:padding="10dp"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginLeft="18dp"
-                    android:textAppearance="@color/colorPrimaryDark"
+                    android:padding="18dp"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
                     android:textSize="15sp"
+
+
                     />
 
                 <EditText
@@ -109,7 +126,8 @@
                     android:layout_height="wrap_content"
                     android:hint="Thyrocare Username"
                     android:inputType="textCapWords"
-                    android:layout_marginTop="16dp"
+                    android:textSize="15sp"
+                    android:paddingTop="20dp"
                     />
                 <EditText
                     android:id="@+id/name_field8"
@@ -117,17 +135,19 @@
                     android:layout_height="wrap_content"
                     android:hint="Thyrocare Password"
                     android:inputType="textCapWords"
-                    android:layout_marginTop="16dp"
+                    android:textSize="15sp"
+                    android:paddingTop="30dp"
                     />
-
                 <EditText
                     android:id="@+id/name_field9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Default Lab"
                     android:inputType="textCapWords"
-                    android:layout_marginTop="16dp"
+                    android:textSize="15sp"
+                    android:paddingTop="30dp"
                     />
+
             </LinearLayout>
 
 
@@ -141,10 +161,13 @@
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
             android:layout_marginBottom="2dp"
-            android:layout_marginTop="18dp"
-            android:padding="20dp"
+            android:layout_marginTop="20dp"
+            android:padding="15dp"
             android:text="SUBMIT"
             android:layout_gravity="center_horizontal"
+            android:background = "@drawable/buttonshape"
+            android:textColor="#FFFFFF"
+
             />
 
 

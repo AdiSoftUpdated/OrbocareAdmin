@@ -29,5 +29,8 @@ dependencies {
     implementation 'com.github.ganfra:material-spinner:2.0.0'
     implementation 'com.android.support:design:27.1.1'
     compile 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+    implementation 'com.miguelcatalan:materialsearchview:1.4.0'
+
 
 }
