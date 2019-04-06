@@ -1,16 +1,20 @@
 package com.example.android.orbocareadmin;
 
-import android.annotation.SuppressLint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
-import android.widget.Toast;
+
+import com.miguelcatalan.materialsearchview.MaterialSearchView;
 
 import fr.ganfra.materialspinner.MaterialSpinner;
+
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -51,11 +55,48 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
+        MaterialSearchView searchView = (MaterialSearchView) findViewById(R.id.search_view);
+        searchView.setOnQueryTextListener(new MaterialSearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                //Do some magic
+                return false;
+            }
 
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                //Do some magic
+                return false;
+            }
+        });
+
+        searchView.setOnSearchViewListener(new MaterialSearchView.SearchViewListener() {
+            @Override
+            public void onSearchViewShown() {
+                //Do some magic
+            }
+
+            @Override
+            public void onSearchViewClosed() {
+                //Do some magic
+            }
+        });
 
 
 
         }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+
+        MenuItem item = menu.findItem(R.id.action_search);
+        MaterialSearchView searchView = (MaterialSearchView) findViewById(R.id.search_view);
+        searchView.setMenuItem(item);
+
+        return true;
+    }
+
 
 
 
