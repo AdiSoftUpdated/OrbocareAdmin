@@ -1,8 +1,11 @@
 package com.example.android.orbocareadmin;
 
+import android.content.Intent;
+import android.speech.RecognizerIntent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
+import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -11,6 +14,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 
 import com.miguelcatalan.materialsearchview.MaterialSearchView;
+
+import java.util.ArrayList;
 
 import fr.ganfra.materialspinner.MaterialSpinner;
 
@@ -55,7 +60,20 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
+        //MaterialSearchView searchView = (MaterialSearchView) findViewById(R.id.search_view);
+
+
+
+        }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+
+        MenuItem item = menu.findItem(R.id.action_search);
         MaterialSearchView searchView = (MaterialSearchView) findViewById(R.id.search_view);
+        searchView.setMenuItem(item);
+
         searchView.setOnQueryTextListener(new MaterialSearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
@@ -83,18 +101,24 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-
-        }
+        return true;
+    }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu, menu);
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == MaterialSearchView.REQUEST_VOICE && resultCode == RESULT_OK) {
+            ArrayList<String> matches = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
+            if (matches != null && matches.size() > 0) {
+                String searchWrd = matches.get(0);
+                if (!TextUtils.isEmpty(searchWrd)) {
+                    MaterialSearchView searchView = (MaterialSearchView) findViewById(R.id.search_view);
+                    searchView.setQuery(searchWrd, false);
+                }
+            }
 
-        MenuItem item = menu.findItem(R.id.action_search);
-        MaterialSearchView searchView = (MaterialSearchView) findViewById(R.id.search_view);
-        searchView.setMenuItem(item);
-
-        return true;
+            return;
+        }
+        super.onActivityResult(requestCode, resultCode, data);
     }
 
 
