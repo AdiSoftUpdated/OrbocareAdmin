@@ -1,0 +1,291 @@
+{
+  "project_info": {
+    "project_number": "1074127182714",
+    "firebase_url": "https://orbocare-dev.firebaseio.com",
+    "project_id": "orbocare-dev",
+    "storage_bucket": "orbocare-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074127182714:android:76ca2e9cf11a5f0c",
+        "android_client_info": {
+          "package_name": "com.example.android.orbocareadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074127182714-7i0rkvui6uecbibt31jnvi3dlqbccs1u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.orbocareadmin",
+            "certificate_hash": "e1581145d8e501d346d706430408266795e3223b"
+          }
+        },
+        {
+          "client_id": "1074127182714-nusn2qo46t2c2ba7b62qhqim3mos0svc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDffXNSGLQRnR5EVXazR47NFWKiUlYmUf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074127182714-nusn2qo46t2c2ba7b62qhqim3mos0svc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074127182714:android:942fac0087d92e75",
+        "android_client_info": {
+          "package_name": "com.example.milkiminz.collection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074127182714-ekm7d6inrp4r6nf3ndo43tb2f0pd63nc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.milkiminz.collection",
+            "certificate_hash": "cfb774306c095c8cba07677cdd689c967f818510"
+          }
+        },
+        {
+          "client_id": "1074127182714-nusn2qo46t2c2ba7b62qhqim3mos0svc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDffXNSGLQRnR5EVXazR47NFWKiUlYmUf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074127182714-nusn2qo46t2c2ba7b62qhqim3mos0svc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074127182714:android:6c180de865351ea2",
+        "android_client_info": {
+          "package_name": "com.example.milkiminz.orbocare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074127182714-nusn2qo46t2c2ba7b62qhqim3mos0svc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDffXNSGLQRnR5EVXazR47NFWKiUlYmUf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074127182714-nusn2qo46t2c2ba7b62qhqim3mos0svc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074127182714:android:7db7e41741db0ef9",
+        "android_client_info": {
+          "package_name": "com.orbocare.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074127182714-sfrb0plrm5cl1l7ht8kh6i02k9v83jto.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.orbocare.android",
+            "certificate_hash": "af674f65687aeaa4d39578b09a4295e4bc5f863c"
+          }
+        },
+        {
+          "client_id": "1074127182714-nusn2qo46t2c2ba7b62qhqim3mos0svc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDffXNSGLQRnR5EVXazR47NFWKiUlYmUf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074127182714-nusn2qo46t2c2ba7b62qhqim3mos0svc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074127182714:android:d4fb96647b06ad0e",
+        "android_client_info": {
+          "package_name": "com.orbocare.com.orbocare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074127182714-nusn2qo46t2c2ba7b62qhqim3mos0svc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDffXNSGLQRnR5EVXazR47NFWKiUlYmUf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074127182714-nusn2qo46t2c2ba7b62qhqim3mos0svc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074127182714:android:5d93b57bd77b11da",
+        "android_client_info": {
+          "package_name": "com.orbocare.orbocareadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074127182714-5hluu0akhamdhaue12h12k4sdjf0lp1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.orbocare.orbocareadmin",
+            "certificate_hash": "c8a107801d39fa5676a257616b3d94d86ec09704"
+          }
+        },
+        {
+          "client_id": "1074127182714-nusn2qo46t2c2ba7b62qhqim3mos0svc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDffXNSGLQRnR5EVXazR47NFWKiUlYmUf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074127182714-nusn2qo46t2c2ba7b62qhqim3mos0svc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074127182714:android:a30d9c6feb6044dc",
+        "android_client_info": {
+          "package_name": "com.release.loyaljuice.orbocaredoctorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074127182714-onqm393804vkobjfcpj68tup8c6j8eod.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.release.loyaljuice.orbocaredoctorapp",
+            "certificate_hash": "c8a107801d39fa5676a257616b3d94d86ec09704"
+          }
+        },
+        {
+          "client_id": "1074127182714-nusn2qo46t2c2ba7b62qhqim3mos0svc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDffXNSGLQRnR5EVXazR47NFWKiUlYmUf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074127182714-nusn2qo46t2c2ba7b62qhqim3mos0svc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074127182714:android:a41b1e09a7488ad4",
+        "android_client_info": {
+          "package_name": "com.release.loyaljuice.orbocarereports"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074127182714-mkue9gn784ehns7vbb2q7vp6uuof10i2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.release.loyaljuice.orbocarereports",
+            "certificate_hash": "c8a107801d39fa5676a257616b3d94d86ec09704"
+          }
+        },
+        {
+          "client_id": "1074127182714-nusn2qo46t2c2ba7b62qhqim3mos0svc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDffXNSGLQRnR5EVXazR47NFWKiUlYmUf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074127182714-nusn2qo46t2c2ba7b62qhqim3mos0svc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
