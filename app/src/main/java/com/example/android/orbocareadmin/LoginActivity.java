@@ -47,7 +47,8 @@ public class LoginActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
 
 
-
+                        Intent i = new Intent(LoginActivity.this, AgentActivity.class);
+                        startActivity(i);
 
 
 
